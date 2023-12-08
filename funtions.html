@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practic1</title>
+</head>
+<body>
+    <h2>Funtions</h2>
+    <script>
+        function square(numero) {
+            var cuadrado = numero * numero;
+            return cuadrado;
+        }
+        var numero = 5;
+        var resultado = square(numero);
+
+        console.log("El cuadrado de " + numero + " es: " + resultado);
+    </script> 
+    <h2>Arrow Funtions</h2>
+    <script>
+        // Definición de la función de flecha
+        const divideByTwo = numero => {
+        // Calcula el resultado de la división por 2
+        const resultado = numero / 2;
+        
+        // Devuelve el resultado
+        return resultado;
+        };
+
+        // Ejemplo de uso
+        const numero = 10;
+        const resultadoDivision = divideByTwo(numero);
+        console.log("La mitad de " + numero + " es: " + resultadoDivision);
+
+    </script>
+</body>
+</html>
