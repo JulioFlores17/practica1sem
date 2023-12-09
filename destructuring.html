@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica1</title>
+</head>
+<body>
+    <h2>Destructuring</h2>
+    <script>
+        const person = {
+        head: {
+            eyes: '8',
+            mouth: {  
+            teeth: '7',
+            tongue: '4'
+            }
+        },  
+        body: {
+            shoulders: '10',
+            chest: '9',
+            arms: '8.5',
+            hands: '9',
+            legs: '10'
+        }
+};
+
+const myEyes = person.head.eyes;
+const myLegs = person.body.legs;
+
+console.log("Mis ojos: " + myEyes);
+console.log("Mis piernas: " + myLegs);
+
+    </script>
+</body>
+</html>
+
